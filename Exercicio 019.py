@@ -1,10 +1,8 @@
-import math
-n1 = float(input("Digite o angulo: "))
-
-se = math.sin(math.radians(n1))
-co = math.cos(math.radians(n1))
-ta = math.tan(math.radians(n1))
-
-print("O seno é {:.2f}".format(se))
-print("O cosseno é {:.2f}".format(co))
-print("E a tangente é {:.2f}".format(ta))
+from random import choice
+n1 = str(input("Digite o nome do aluno: "))
+n2 = str(input("Digite o nome do aluno: "))
+n3 = str(input("Digite o nome do aluno: "))
+n4 = str(input("Digite o nome do ultimo aluno: "))
+lista = [n1, n2, n3, n4]
+r = choice(lista)
+print("O aluno escolhido foi o(a): {}".format(r))
