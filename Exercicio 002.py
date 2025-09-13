@@ -1,2 +1,2 @@
-n1 = str(input("Digite seu nome: "))
-print("Olá {}, seja bem vindo(a).".format(n1))
+n1 = str(input("Type Your name: "))
+print("Hello {}, nice to meet you!!".format(n1))
