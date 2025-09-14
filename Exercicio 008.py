@@ -1,5 +1,14 @@
-n1 = int(input("Digite um valor em metro: "))
-n2 = n1 * 100
-n3 = n1 * 1000
-print("O valor de {}m em centimetros é igual a {}cm.".format(n1, n2))
-print("O valor de {}m em milimetros, é igual a {}mm.".format(n1, n3))
+m = float(input("Type a distance in metros: "))
+KM = m / 1000
+hm = m / 100
+dam = / 10
+dm = * 10
+cm = * 100
+mm = * 100
+print("The conversion of {:.1f}M is =:".format(m)) 
+print("{}Km".format(KM))
+print("{}Hm".format(hm))
+print("{}Dam".format(dam))
+print("{}Dm".format(dm))
+print("{}Ccm".format(cm))
+print("{}Mm".format(mm))
